@@ -79,6 +79,46 @@ public class ingresoUsuarioTest {
         assertEquals(expResult, result);
         
     }
+
+    /**
+     * Test of userIdentyCardLength method, of class ingresoUsuario.
+     */
+    @Test
+    public void testUserIdentyCardLength() {
+        System.out.println("userIdentyCardLength");
+        String userIC = "asmdlfwrto";
+        ingresoUsuario instance = new ingresoUsuario();
+        boolean expResult = true;
+        boolean result = instance.userIdentyCardLength(userIC);
+        assertEquals(expResult, result);
+    }
+
+    /**
+     * Test of userIdenttCardLengthAndOnlyNumber method, of class ingresoUsuario.
+     */
+    @Test
+    public void testUserIdenttCardLengthAndOnlyNumber() {
+        System.out.println("userIdenttCardLengthAndOnlyNumber");
+        String userIC = "1234567890";
+        ingresoUsuario instance = new ingresoUsuario();
+        boolean expResult = true;
+        boolean result = instance.userIdenttCardLengthAndOnlyNumber(userIC);
+        assertEquals(expResult, result);
+    }
+
+    /**
+     * Test of userPasswordLength method, of class ingresoUsuario.
+     */
+    @Test
+    public void testUserPasswordLength() {
+        System.out.println("userPasswordLength");
+        String userPassword = "Pas$w123";
+        ingresoUsuario instance = new ingresoUsuario();
+        boolean expResult = true;
+        boolean result = instance.userPasswordLength(userPassword);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+    }
     
     
 }
