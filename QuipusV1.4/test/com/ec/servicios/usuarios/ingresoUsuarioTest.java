@@ -77,7 +77,7 @@ public class ingresoUsuarioTest {
         boolean expResult = true;
         boolean result = instance.usernameLengthMoreThan3lessThan20AndIsAString(UserName);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+        
     }
     
     

@@ -10,5 +10,13 @@
             <file>file:/C:/Users/Cchristico/Documents/Libres/quipusV1.4/QuipusV1.4/src/com/ec/entidades/Usuario.java</file>
             <file>file:/C:/Users/Cchristico/Documents/Libres/quipusV1.4/QuipusV1.4/src/com/ec/vistas/usuario.java</file>
         </group>
+        <group name="ProyectoQuipus">
+            <file>file:/D:/respaldos/Poli/sexto/Aplicaciones%20en%20Ambientes%20Libres/ProyectoQuipus/quipusV1.4/QuipusV1.4/src/com/ec/vistas/usuario.java</file>
+            <file>file:/D:/respaldos/Poli/sexto/Aplicaciones%20en%20Ambientes%20Libres/ProyectoQuipus/quipusV1.4/QuipusV1.4/test/com/ec/servicios/usuarios/ingresoProveedorTest.java</file>
+            <file>file:/D:/respaldos/Poli/sexto/Aplicaciones%20en%20Ambientes%20Libres/ProyectoQuipus/quipusV1.4/QuipusV1.4/src/com/ec/servicios/UsuarioJpaController.java</file>
+            <file>file:/D:/respaldos/Poli/sexto/Aplicaciones%20en%20Ambientes%20Libres/ProyectoQuipus/quipusV1.4/QuipusV1.4/test/com/ec/servicios/usuarios/ingresoUsuarioTest.java</file>
+            <file>file:/D:/respaldos/Poli/sexto/Aplicaciones%20en%20Ambientes%20Libres/ProyectoQuipus/quipusV1.4/QuipusV1.4/src/com/ec/servicios/proveedor/ingresoProveedor.java</file>
+            <file>file:/D:/respaldos/Poli/sexto/Aplicaciones%20en%20Ambientes%20Libres/ProyectoQuipus/quipusV1.4/QuipusV1.4/src/com/ec/servicios/usuarios/ingresoUsuario.java</file>
+        </group>
     </open-files>
 </project-private>
