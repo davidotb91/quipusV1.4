@@ -27,14 +27,31 @@ public Boolean userNameisAString(String userName)
      Matcher mat = pat.matcher(userName);
          return mat.find();
 }
-public boolean usernameLengthMoreThan3lessThan20AndIsAString(String UserName)
+public boolean usernameLengthMoreThan3lessThan20AndIsAString(String userName)
 {
     Pattern pat = Pattern.compile("[a-zA-Z]{3,20}");
-    Matcher mat = pat.matcher(UserName);
-    
+    Matcher mat = pat.matcher(userName);
                 return mat.find();
 }
+        public boolean userIdentyCardLength(String userIC)
+        {
+            Pattern pat = Pattern.compile("{10}");
+            Matcher mat = pat.matcher(userIC);
+            return mat.find();        
+        }
         
+        public boolean userIdenttCardLengthAndOnlyNumber(String userIC)
+        {
+            Pattern pat = Pattern.compile("[0-9]{10}");
+            Matcher mat = pat.matcher(userIC);
+            return mat.find();
+        }
+        public boolean userPasswordLength(String userPassword)
+        {
+            Pattern pat = Pattern.compile("(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\\n])(?=.*[A-Z])(?=.*[a-z]).*$");
+            Matcher mat = pat.matcher(userPassword);
+            return mat.find();
+        }
 
 }
 
