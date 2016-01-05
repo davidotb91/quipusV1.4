@@ -5,7 +5,7 @@
  */
 package com.ec.vistas;
 
-import static com.ec.vistas.ListaIngreso.openFrameCount;
+import static com.ec.vistas.ListaIngresos.openFrameCount;
 import static com.ec.vistas.Principal.desktopPane;
 import java.awt.Dimension;
 import javax.swing.JInternalFrame;
@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author Toshiba
  */
-public class ListaEgreso extends javax.swing.JInternalFrame {
+public class ListaEgresos extends javax.swing.JInternalFrame {
     static int openFrameCount = 0;
     static final int xOffset = 100, yOffset = 30;
     DefaultTableModel model = null;
@@ -26,7 +26,7 @@ public class ListaEgreso extends javax.swing.JInternalFrame {
     /**
      * Creates new form ListaEgreso
      */
-    public ListaEgreso(JInternalFrame ventana) {
+    public ListaEgresos(JInternalFrame ventana) {
         super("Registrar Factura de Egresos" + (++openFrameCount),
                 false, //resizable
                 true, //closable
@@ -55,13 +55,13 @@ public class ListaEgreso extends javax.swing.JInternalFrame {
         jLabel1 = new javax.swing.JLabel();
         jComboBox1 = new javax.swing.JComboBox();
         jLabel2 = new javax.swing.JLabel();
-        jDateChooser1 = new com.toedter.calendar.JDateChooser();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
+        jDateChooser2 = new com.toedter.calendar.JDateChooser();
 
         jLabel1.setText("Seleccionar: ");
 
@@ -128,15 +128,15 @@ public class ListaEgreso extends javax.swing.JInternalFrame {
                         .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(145, 145, 145)
                         .addComponent(jLabel2)
-                        .addGap(30, 30, 30)
-                        .addComponent(jDateChooser1, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 288, Short.MAX_VALUE))
+                        .addGap(18, 18, 18)
+                        .addComponent(jDateChooser2, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jScrollPane1)))
                 .addContainerGap())
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(318, Short.MAX_VALUE)
                 .addComponent(jButton1)
                 .addGap(107, 107, 107)
                 .addComponent(jButton2)
@@ -150,15 +150,15 @@ public class ListaEgreso extends javax.swing.JInternalFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(28, 28, 28)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel1)
                         .addComponent(jLabel2))
-                    .addComponent(jDateChooser1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jDateChooser2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(39, 39, 39)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 333, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 337, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(jButton2)
@@ -215,7 +215,7 @@ public class ListaEgreso extends javax.swing.JInternalFrame {
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JComboBox jComboBox1;
-    private com.toedter.calendar.JDateChooser jDateChooser1;
+    private com.toedter.calendar.JDateChooser jDateChooser2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
