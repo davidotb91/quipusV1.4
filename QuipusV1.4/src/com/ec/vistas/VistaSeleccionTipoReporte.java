@@ -5,7 +5,7 @@
  */
 package com.ec.vistas;
 
-import static com.ec.vistas.ListaIngreso.openFrameCount;
+import static com.ec.vistas.ListaIngresos.openFrameCount;
 import javax.swing.table.DefaultTableModel;
 
 /**

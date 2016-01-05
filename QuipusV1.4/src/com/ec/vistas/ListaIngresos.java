@@ -9,6 +9,7 @@ import static com.ec.vistas.FacturaIngresos.openFrameCount;
 import static com.ec.vistas.Principal.desktopPane;
 import java.awt.Dimension;
 import javax.swing.JInternalFrame;
+import javax.swing.JOptionPane;
 import javax.swing.event.InternalFrameAdapter;
 import javax.swing.event.InternalFrameEvent;
 import javax.swing.table.DefaultTableModel;
@@ -17,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author david
  */
-public class ListaIngreso extends javax.swing.JInternalFrame {
+public class ListaIngresos extends javax.swing.JInternalFrame {
     static int openFrameCount = 0;
     static final int xOffset = 100, yOffset = 30;
     DefaultTableModel model = null;
@@ -26,7 +27,7 @@ public class ListaIngreso extends javax.swing.JInternalFrame {
     /**
      * Creates new form FacturaEgresos
      */
-    public ListaIngreso(JInternalFrame ventana) {
+    public ListaIngresos(JInternalFrame ventana) {
          super("Registrar Factura de Ingresos" + (++openFrameCount),
                 false, //resizable
                 true, //closable
@@ -191,7 +192,7 @@ public class ListaIngreso extends javax.swing.JInternalFrame {
 
     private void btnEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarActionPerformed
         // TODO add your handling code here:
-        this.setVisible(false);
+       JOptionPane.showConfirmDialog(null, "Eliminacion de Factura \nEliminar factura: \n Del Proveedor:","Desea eliminar",JOptionPane.YES_NO_OPTION);
     }//GEN-LAST:event_btnEliminarActionPerformed
 
     private void btnGenerarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGenerarActionPerformed

@@ -80,7 +80,7 @@ public class VistaTipodeRegistro extends javax.swing.JInternalFrame {
     }// </editor-fold>                        
 
     private void btnIngresoActionPerformed(java.awt.event.ActionEvent evt) {                                           
-        ListaIngreso ObjListaIngreso = new ListaIngreso(this);
+        ListaIngresos ObjListaIngreso = new ListaIngresos(this);
         desktopPane.add(ObjListaIngreso);
         
         //ObjListaIngreso.show();
@@ -94,7 +94,7 @@ public class VistaTipodeRegistro extends javax.swing.JInternalFrame {
 
     private void btnEgresoActionPerformed(java.awt.event.ActionEvent evt) {                                          
         // TODO add your handling code here:
-        ListaEgreso objListaEgreso = new ListaEgreso(this);
+        ListaEgresos objListaEgreso = new ListaEgresos(this);
         desktopPane.add(objListaEgreso);
         
         objListaEgreso.show();
