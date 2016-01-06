@@ -16,6 +16,7 @@ public class VistaRegistrarEgreso extends javax.swing.JInternalFrame {
     /**
      * Creates new form VistaRegistrarEgreso
      */
+    
     public VistaRegistrarEgreso() {
         initComponents();
     }
