@@ -5,49 +5,27 @@
  */
 package com.ec.servicios.usuarios;
 
+import com.ec.entidades.Usuario;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+import com.ec.negocio.*;
+import com.ec.utilitarios.UserValidationIntegration;
 /**
  *
  * @author Cchristico
  */
 public class ingresoUsuario {
 
-
-public  Boolean userLength(String userName)
+public void UserCreate(Usuario usuario)
 {
-        return userName.isEmpty();
-        
+    UserValidationIntegration validation = new UserValidationIntegration();   
+    validation.UserCreation(usuario);
 }
 
-public Boolean userNameisAString(String userName)
-{
-     Pattern pat = Pattern.compile("[a-zA-Z]");
-     Matcher mat = pat.matcher(userName);
-         return mat.find();
-}
-public boolean usernameLengthMoreThan3lessThan20AndIsAString(String userName)
-{
-    Pattern pat = Pattern.compile("[a-zA-Z]{3,20}");
-    Matcher mat = pat.matcher(userName);
-                return mat.find();
-}
-        public boolean userIdentyCardLength(String userIC)
-        {
-            Pattern pat = Pattern.compile("{10}");
-            Matcher mat = pat.matcher(userIC);
-            return mat.find();        
-        }
-        
-        public boolean userIdenttCardLengthAndOnlyNumber(String userIC)
-        {
-            Pattern pat = Pattern.compile("[0-9]{10}");
-            Matcher mat = pat.matcher(userIC);
-            return mat.find();
-        }
         public boolean userPasswordLength(String userPassword)
         {
+            GeneralValidations val = new GeneralValidations();
+            val.matchPassw(userPassword, userPassword);
             Pattern pat = Pattern.compile("(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\\n])(?=.*[A-Z])(?=.*[a-z]).*$");
             Matcher mat = pat.matcher(userPassword);
             return mat.find();

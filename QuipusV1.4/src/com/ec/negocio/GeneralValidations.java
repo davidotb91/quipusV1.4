@@ -325,10 +325,21 @@ public class GeneralValidations {
 	 * @param confirmacionContrasena
 	 *            dato de tipo String referencial al contenido del objeto
 	 */
-	public void coincidenciaContrasenas(String contrasena,String confirmacionContrasena) {
+	public void matchPassw(String contrasena,String confirmacionContrasena) {
 		if (!contrasena.equals(confirmacionContrasena)) {
 			errorMessage += "Contraseñas no coinciden \n";
 		}
-
-	}	
+	}        
+        public boolean ErrorMesgIsEmpy() {
+		if (!errorMessage.equals("")) {
+			JOptionPane.showMessageDialog(null, errorMessage, "Error",
+					JOptionPane.ERROR_MESSAGE);
+			errorMessage = "";
+			return true;
+		} else {
+			errorMessage = "";
+			return false;
+		}
+	}
+        
 }
