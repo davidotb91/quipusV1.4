@@ -178,6 +178,7 @@ public class UsuarioJpaController implements Serializable {
             em.close();
         }
     }
+      
 
     public int getUsuarioCount() {
         EntityManager em = getEntityManager();

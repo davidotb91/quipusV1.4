@@ -24,12 +24,20 @@ public class Principal extends javax.swing.JFrame {
         this.setLocationRelativeTo(this);
         VistaTipodeRegistro ObjTipoRegistro =new VistaTipodeRegistro();
         desktopPane.add(ObjTipoRegistro);
+        ObjTipoRegistro.setBounds(40, 200, 450, 200);
         ObjTipoRegistro.show();
-        Dimension desktopSize = desktopPane.getSize();
-        Dimension FrameSize = ObjTipoRegistro.getSize();
-        ObjTipoRegistro.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
-        ObjTipoRegistro.show();
-               
+        
+        
+        /*Dashboard ObjDashboard = new Dashboard();
+        desktopPane.add(ObjDashboard);
+        ObjDashboard.setBounds(650, 40, 600, 600);
+        ObjDashboard.show();*/
+        
+        Dashboards ObjDashboards = new Dashboards();
+        desktopPane.add(ObjDashboards);
+        ObjDashboards.setBounds(650, 50, 600, 600);
+        ObjDashboards.show();
+       
      /*   menuBar.setEnabled(activador);
         menuBar.setVisible(activador);
         

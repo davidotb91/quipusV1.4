@@ -95,6 +95,7 @@ public class Usuario implements Serializable {
         return contrasenaUsuario;
     }
 
+        
     public void setContrasenaUsuario(String contrasenaUsuario) {
         String oldContrasenaUsuario = this.contrasenaUsuario;
         this.contrasenaUsuario = contrasenaUsuario;
@@ -152,5 +153,5 @@ public class Usuario implements Serializable {
     public void removePropertyChangeListener(PropertyChangeListener listener) {
         changeSupport.removePropertyChangeListener(listener);
     }
-    
+   
 }
