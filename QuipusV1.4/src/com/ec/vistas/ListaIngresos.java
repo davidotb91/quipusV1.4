@@ -32,7 +32,7 @@ public class ListaIngresos extends javax.swing.JInternalFrame {
                 false, //resizable
                 true, //closable
                 true, //maximizable
-                true);//iconifiable
+                false);//iconifiable
         initComponents();
         
         this.addInternalFrameListener(new InternalFrameAdapter() {

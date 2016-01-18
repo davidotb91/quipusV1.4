@@ -2,6 +2,20 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/Toshiba/Documents/KATY/AAL/Proyecto/final/quipusV1.4/QuipusV1.4/src/com/ec/vistas/ListaEgresos.java</file>
+            <file>file:/C:/Users/Toshiba/Documents/KATY/AAL/Proyecto/final/quipusV1.4/QuipusV1.4/src/com/ec/servicios/usuarios/ingresoUsuario.java</file>
+            <file>file:/C:/Users/Toshiba/Documents/KATY/AAL/Proyecto/final/quipusV1.4/QuipusV1.4/src/com/ec/negocio/GeneralValidations.java</file>
+            <file>file:/C:/Users/Toshiba/Documents/KATY/AAL/Proyecto/final/quipusV1.4/QuipusV1.4/src/com/ec/vistas/VistaTipodeRegistro.java</file>
+            <file>file:/C:/Users/Toshiba/Documents/KATY/AAL/Proyecto/final/quipusV1.4/QuipusV1.4/src/com/ec/vistas/Dashboards.java</file>
+            <file>file:/C:/Users/Toshiba/Documents/KATY/AAL/Proyecto/final/quipusV1.4/QuipusV1.4/src/com/ec/servicios/proveedor/ingresoProveedor.java</file>
+            <file>file:/C:/Users/Toshiba/Documents/KATY/AAL/Proyecto/final/quipusV1.4/QuipusV1.4/src/com/ec/vistas/RegistrarUsr.java</file>
+            <file>file:/C:/Users/Toshiba/Documents/KATY/AAL/Proyecto/final/quipusV1.4/QuipusV1.4/src/com/ec/servicios/usuarios/calcularDisponible.java</file>
+            <file>file:/C:/Users/Toshiba/Documents/KATY/AAL/Proyecto/final/quipusV1.4/QuipusV1.4/src/com/ec/vistas/Principal.java</file>
+            <file>file:/C:/Users/Toshiba/Documents/KATY/AAL/Proyecto/final/quipusV1.4/QuipusV1.4/src/com/ec/vistas/Dashboard.java</file>
+            <file>file:/C:/Users/Toshiba/Documents/KATY/AAL/Proyecto/final/quipusV1.4/QuipusV1.4/src/com/ec/entidades/Detalle.java</file>
+            <file>file:/C:/Users/Toshiba/Documents/KATY/AAL/Proyecto/final/quipusV1.4/QuipusV1.4/src/com/ec/vistas/RestablecerPasword.java</file>
+            <file>file:/C:/Users/Toshiba/Documents/KATY/AAL/Proyecto/final/quipusV1.4/QuipusV1.4/src/com/ec/vistas/ListaIngresos.java</file>
+        </group>
     </open-files>
 </project-private>

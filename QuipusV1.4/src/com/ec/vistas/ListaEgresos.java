@@ -31,7 +31,7 @@ public class ListaEgresos extends javax.swing.JInternalFrame {
                 false, //resizable
                 true, //closable
                 true, //maximizable
-                true);//iconifiable
+                false);//iconifiable
         initComponents();
         this.addInternalFrameListener(new InternalFrameAdapter() {
              @Override
@@ -136,7 +136,7 @@ public class ListaEgresos extends javax.swing.JInternalFrame {
                         .addComponent(jScrollPane1)))
                 .addContainerGap())
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(318, Short.MAX_VALUE)
+                .addContainerGap(360, Short.MAX_VALUE)
                 .addComponent(jButton1)
                 .addGap(107, 107, 107)
                 .addComponent(jButton2)
