@@ -5,6 +5,9 @@
  */
 package com.ec.vistas;
 
+import com.ec.entidades.Usuario;
+import com.ec.servicios.UsuarioJpaController;
+import javax.persistence.EntityManager;
 import javax.swing.JOptionPane;
 
 /**
@@ -104,8 +107,15 @@ public class RegistrarUsr extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jLabel3)
+                        .addContainerGap(233, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel1)
+                                .addGap(53, 53, 53)
+                                .addComponent(txtRuc))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel7)
                                     .addComponent(jLabel8)
@@ -118,19 +128,11 @@ public class RegistrarUsr extends javax.swing.JFrame {
                                     .addComponent(txtPregunta)
                                     .addComponent(txtCorreo)
                                     .addComponent(txtNombre)))
-                            .addGroup(layout.createSequentialGroup()
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                 .addComponent(jLabel5)
                                 .addGap(18, 18, 18)
                                 .addComponent(txtcontrasena)))
-                        .addGap(71, 71, 71))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel3)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel1)
-                                .addGap(53, 53, 53)
-                                .addComponent(txtRuc, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addGap(71, 71, 71))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -174,24 +176,15 @@ public class RegistrarUsr extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnGuardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGuardarActionPerformed
-JOptionPane.showConfirmDialog(null, "Usuario agregado");
-this.setVisible(false);
-login log = new login();
-log.setVisible(true);
-        
-// TODO add your handling code here:
-        /*usuario = new Usuario(
-            txtRuc.getText().toString(),
-            txtNickName.getText().toString(),
-            txtNombre.getText().toString(),
-            txtApellido.getText().toString(),
-            txtcontrasena.getText().toString(),
-            Double.parseDouble(txtSalario.getText().toString()),
-            txtCorreo.getText().toString(),
-            txtPregunta.getText().toString(),
-            txtRespuesta.getText().toString());
 
-        servicioUsuario.Crear(usuario);*/
+//this.setVisible(false);
+//login log = new login();
+//log.setVisible(true);
+        
+// Creando Usuarios en la pantalla de Usuario
+     
+      
+           
     }//GEN-LAST:event_btnGuardarActionPerformed
 
     private void txtRucActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtRucActionPerformed
